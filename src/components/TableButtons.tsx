@@ -15,7 +15,7 @@ export const TableButtons = ({ handleAddRow, handleDelete }: TableButtonsProps) 
   const handleLogout = () => {
     localStorage.removeItem('token');
     navigate('/login');
-  }
+  };
 
   return (
     <>
